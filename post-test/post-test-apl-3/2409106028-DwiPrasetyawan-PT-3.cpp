@@ -84,7 +84,7 @@ int main() {
         } else {
             cout << "Pilihan tidak valid!\n";
         }
-    
+    }
     do {
         cout << "\n==================================" << endl;
         cout << "| Menu Manajemen Parkir Mall" << endl;
@@ -206,5 +206,4 @@ int main() {
             cout << "Pilihan tidak valid!\n";
         }
     } while (pilihan != 5);
-    }
 }
