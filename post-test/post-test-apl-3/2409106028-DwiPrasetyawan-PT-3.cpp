@@ -136,6 +136,16 @@ int main() {
                 }
                 cout << endl;
             }
+            for (int i = 0; i < MAX_Y; i++) {
+                for (int j = 0; j < MAX_X; j++) {
+                    if (parkiranMotor[i][j].platNomor == "") {
+                    cout << "[Kosong] ";
+                    } else {
+                        cout << "[" << parkiranMotor[i][j].platNomor << " - " << parkiranMotor[i][j].pemilik << "] ";
+                    }
+                }
+                cout << endl;
+            }
         } else if (pilihan == 3) {
             int asal_Y, asal_X, tujuan_Y, tujuan_X;
             string jenis;
