@@ -136,6 +136,7 @@ int main() {
                 }
                 cout << endl;
             }
+            cout << "\nTampilan Parkiran Mobil:\n";
             for (int i = 0; i < MAX_Y; i++) {
                 for (int j = 0; j < MAX_X; j++) {
                     if (parkiranMotor[i][j].platNomor == "") {
